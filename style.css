@@ -1,0 +1,16 @@
+*{
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+}
+.header{
+    background-image: url('image/bc1.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.navbar{
+    display: flex;
+    color: aliceblue;
+    justify-content: space-evenly;
+    
+}
