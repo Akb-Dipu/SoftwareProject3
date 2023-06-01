@@ -18,9 +18,28 @@
     color: aliceblue;
     justify-content: space-evenly;
 }
+<<<<<<< HEAD
 .navbar li{
   line-height: 80px;
 }
+=======
+
+.title{
+  padding-top: 55px;
+}
+
+#home{
+  padding-left: 85px;
+  padding-right: 85px;
+  font-size: larger;
+}
+
+#registration{
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+>>>>>>> a64b7c042a4db7b8f14032075283bd61d4a72921
 /* Button */
 .btn{
     padding: 5px;
