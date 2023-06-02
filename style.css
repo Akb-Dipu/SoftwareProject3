@@ -2,18 +2,21 @@
     list-style: none;
     font-family: 'Poppins', sans-serif;
     text-decoration: none;
+    margin: 0;
+    padding: 0;
 }
 .header{
+    width: 100%;
+    min-height: 100vh;
     background-image: url('image/wallpaper.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-
+    background-position: center;
 }
 .navbar{
     display: flex;
     color: aliceblue;
     justify-content: space-evenly;
-    
 }
 
 .title{
@@ -35,12 +38,17 @@
 .btn{
     padding: 5px;
 }
-
-
-
 /* Body */
 main{
+    margin-top: 40px;
     text-align: center;
+}
+#home{
+  text-align: center;
+}
+#home p{
+   margin:0% 24%;
+  font-size: 18px;
 }
 /* Registration */
 .registration{

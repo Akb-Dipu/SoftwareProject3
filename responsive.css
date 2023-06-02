@@ -1,3 +1,25 @@
-@media screen (max-width:560px) {
-    
+@media (min-width:1201px) and (max-width:1400px){
+    .silver-gym{
+        font-size: 60px;
+    }
+    #home p{
+    margin:0% 8%;
+   }
+}
+   @media (min-width: 360px) and (max-width: 640px) {
+    .silver-gym{
+    font-size: 40px;
+    margin-top: 100%;
+}
+    #home p{
+    margin:0% 4%;
+   }
+   .navbar{
+    display: flex;
+    flex-direction: column;
+    float: right;
+  }
+  .navbar li{
+    line-height: 0px;
+  }
 }
