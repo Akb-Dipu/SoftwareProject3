@@ -150,7 +150,7 @@ table {
   /* Shopping CArd */
   .item{
     display: flex;
-    flex-direction: row;
+    flex-direction:row;
     padding-top: 50px;
     padding-bottom: 80px;
   }
