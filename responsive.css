@@ -77,6 +77,16 @@
   .goves img{
     width: 100px;
   }
-  .commonication{
+  .icon {
+    padding: 25px;
+  }
+  #contact h3,h4{
+    margin-top: 10px;
+  }
+  .location{
+    margin-top: 10px;
+  }
+  .name{
+    font-size: 25px;
   }
 }
