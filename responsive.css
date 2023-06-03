@@ -21,6 +21,9 @@
     font-size: 70px;
     color: antiquewhite;
    }
+   #home{
+    padding: 0px;
+   }
     #home p{
     margin:0% 4%;
    }
