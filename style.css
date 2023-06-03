@@ -16,9 +16,8 @@
 .navbar{
     display: flex;
     color: aliceblue;
-    justify-content: space-evenly;
+   justify-content: space-evenly;
 }
-
 .title{
   padding-top: 55px;
 }
@@ -181,4 +180,15 @@ table {
   
   .card button:hover {
     opacity: 0.7;
+  }
+  .checkbtn{
+    color: #fff;
+    font-size: 30px;
+    line-height: 180px;
+    float: left;
+    margin-left: 15px;
+    display: none;
+  }
+  #check{
+    display: none;
   }

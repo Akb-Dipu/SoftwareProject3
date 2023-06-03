@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Silver-gym</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="text.css">
     <link rel="stylesheet" href="responsive.css">
@@ -14,12 +15,16 @@
     <header>
 
         <div class="header">
+           <input type="checkbox" id="check">
+           <label for="check" class="checkbtn">
+              <i class="fas fa-bars"></i>
+           </label>
             <div class="navbar">
                   <li><a href="#home"><button class="btn">Home</button></a></li>
                   <li><a href="#registration"><button class="btn">Registration</button></a></li>
                   <li><a href="#Time"><button class="btn">Time-Schedule</button></a></li>
-                  <li><button class="btn">Gym-accessories</button></li>
-                  <li><button class="btn">Contact Us</button></li>
+                  <li><a href="#item"><button class="btn">Gym-accessories</button></a></li>
+                  <li><a href="#contact"><button class="btn">Contact Us</button></a></li>
             </div>
 
             <h1 class="silver-gym">Silver Gym</h1>
@@ -88,7 +93,7 @@
     </div>
     <h1 class="title">Gym-accessories</h1>
 
-    <div class="item">
+    <div class="item" id="item">
 
       <div class="card">
         <img src="image/towel.jpg" style="width:25%">
@@ -96,7 +101,7 @@
         <p class="price">250 tk</p>
         <p><button>Add to Cart</button></p>
       </div>
-      <div class="card">
+      <div class="card gloves">
         <img src="image/gloves.jpg" style="width:25%">
         <h1>GLoves</h1>
         <p class="price">350 tk</p>
@@ -118,23 +123,19 @@
 
   </main>
   
-    <footer class="Contact-info">
+    <footer class="Contact-info" id="contact">
       <div class="footer-content">
       <h1>CONTACT US</h1>
-      <a href="http://"><img src="image/fb.svg"   alt="Icon" class="icon"> </a>
-      <a href="http://"><img src="image/twitt.svg"alt="Icon" class="icon"></a>
-      <a href="http://"><img src="image/insta.svg"alt="Icon" class="icon"></a>
+       <div class="commonication">
+          <a href="http://"><img src="image/fb.svg"   alt="Icon" class="icon"> </a>
+          <a href="http://"><img src="image/twitt.svg"alt="Icon" class="icon"></a>
+          <a href="http://"><img src="image/insta.svg"alt="Icon" class="icon"></a>
+       </div>
       <h3>Ahasan Habib</h3>
       <h4>Trainer</h4>
       <h3>Mobile No: 01666690912</h3>
       <h3>Location : Khagan Bazar,  Ashulia,  SAVAR,  Dhaka-1320.</h3>
       </div>
     </footer>
-  
-
-
-
-
-
 </body>
 </html>
